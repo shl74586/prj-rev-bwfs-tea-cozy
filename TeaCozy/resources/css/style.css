@@ -1,0 +1,200 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header Rules --- COME BACK AND FIX AFTER RESIZING PICS*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  overflow: scroll;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  right: 50px;
+}
+
+nav ul span a {
+  color: seashell;
+}
+
+/*Container 1 Our Mission*/
+
+.container-1 {
+  border: thin solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  margin: 70px 50px 0px 50px;
+  height: 700px;
+
+}
+
+.content {
+  /*border: thin solid red;*/
+  background-color: black;
+  margin-top: 325px;
+  padding: 10px 0px;
+}
+
+.content h2 {
+  /*border: thin solid green;*/
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+.content h4 {
+  /*border: thin solid green;*/
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+/*Container 2 TEA OF THE MONTH*/
+
+.container-2 {
+  border: thin solid black;
+  width: 1000px;
+  margin-top: 40px;
+  margin-left: 210px;
+}
+
+.month h2 {
+  margin-bottom: 20px;
+}
+
+.month h4 {
+  margin-top: 2px;
+}
+
+/*Tea of the Month Pictures*/
+
+.pictures img {
+  height: 200px;
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pictures2 img {
+  height: 200px;
+  width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  bottom: 20px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pictures2 {
+  display: flex;
+  justify-content: center;
+}
+
+.pic1-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 80px;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+.pic2-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 240px;
+  position: relative;
+  left: 10px;
+  bottom: 30px;
+}
+
+/*Locations*/
+
+.container-3 {
+  border: thin solid black;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin: 0px 50px;
+}
+
+#textbox1 {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-right: 20px;
+  line-height: 37px;
+}
+
+#textbox2 {
+  width: 300px;
+  background-color: black;
+  line-height: 37px;
+  margin: 0px 20px
+}
+
+#textbox3 {
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+  line-height: 37px;
+}
+
+#text {
+  opacity: 1;
+}
+
+.boxes {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer*/
+
+.contact {
+  padding: 0px;
+  position: relative;
+  bottom: 20px;
+}
+
+.contact2 {
+  position: relative;
+  top: 20px;
+}
+
+.copyright {
+  text-align: left;
+  width: 20%;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 10px;
+}
